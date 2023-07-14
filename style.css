@@ -1,0 +1,462 @@
+body {
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 200px;
+
+}
+
+
+
+nav>ul {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 2px;
+
+
+}
+
+nav li {
+    list-style: none;
+    margin-right: 20px;
+
+
+    border: 0;
+    padding: 18px 30px;
+
+
+
+}
+
+nav ul li :hover {
+    content: '';
+    background-color: #FD6E0A;
+    border-radius: 15px;
+    opacity: 1;
+
+
+
+
+}
+
+nav li a {
+    text-decoration: none;
+    color: rgb(17, 11, 11);
+    font-size: large;
+    font-weight: 700;
+    padding: 11px;
+
+}
+
+.pri-color {
+
+    color: #FD6E0A;
+
+}
+
+.nav-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.pri-btn {
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    border: 0;
+    padding: 15px 25px;
+    color: white;
+    opacity: .7;
+    font-size: medium;
+
+
+}
+
+.pri-btn a {
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+
+
+}
+
+.pri-btn:hover {
+
+
+    opacity: 1;
+
+}
+
+
+
+/*headeer related style*/
+.header {
+
+    background-color: #fff8f3;
+    background-image: url(images/header_bg.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+
+}
+
+.banner {
+    display: flex;
+    padding: 30px 30px 0px 150px;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: contain;
+
+
+
+}
+
+.banner-contant {
+    max-width: 600px;
+}
+
+.banner img {
+    width: 500px;
+    margin-right: 0;
+    margin-left: 303px;
+}
+
+.banner-greeting {
+
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0;
+
+}
+
+.banner-title {
+    color: #181818;
+    margin-top: 0%;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 05px;
+}
+
+.banner-desrip {
+    color: #474747;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/*ABOUT SETION DESIGN*/
+.about {
+    width: 80%;
+    height: 550px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #fff8f3;
+    align-items: center;
+    text-align: center;
+}
+
+.sec-title {
+    margin-top: 50px;
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.sec-desrcip {
+    padding: 5px;
+    font-size: medium;
+    color: #181818;
+    margin-left: 10%;
+    margin-right: 10%;
+
+
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2px;
+    margin-top: 50px;
+
+
+}
+
+.about-info {
+    text-align: center;
+}
+
+.about-info-title {
+    font-size: medium;
+    font-weight: 3em;
+    padding: 3px;
+}
+
+.about-info-descrip {
+    color: #181818;
+    font-size: large;
+    font-weight: 4em;
+    text-align: center;
+}
+
+/*what-i-do design*/
+.what-i-do {
+    width: 80%;
+    margin: auto;
+
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+
+}
+
+.skills {
+
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 10px;
+    background: white;
+    padding: 30px;
+    margin-top: 20px;
+
+}
+
+.skills:hover {
+    opacity: .9;
+    box-shadow: 8px 09px rgb(142, 168, 217);
+
+    border: 3px solid gray;
+}
+
+/*resume   */
+.resume-row {
+    display: flex;
+
+    margin: 20px;
+
+}
+
+.resume-col {
+
+    margin: 20px;
+    margin-left: 30px;
+    padding-left: 60px;
+
+}
+
+.experience {
+    padding-left: 130px;
+    margin-left: 20px;
+}
+
+.resume-col h3 {
+    font-size: large;
+    font-weight: 700;
+    color: #474747;
+    margin-bottom: 4rem;
+}
+
+.resume-col-iteam-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #474747;
+}
+
+
+
+.resume-col-iteam-subtitle {
+    font-size: 15px;
+    font-weight: 700;
+    color: #474747;
+}
+
+
+.resume-col-iteam-descrip {
+    font-size: 11gitpx;
+    font-weight: 450;
+    color: #757575;
+    width: 550px;
+}
+
+.download-btn {
+    text-align: center;
+}
+
+/*footer design*/
+footer {
+    display: flex;
+    background-color: #fff8f3;
+    margin-top: 100px;
+    gap: 99px;
+
+}
+
+.footer-col {
+    width: 50%;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 25px;
+    color: #181818;
+    border: 0;
+    background: white;
+    width: 100%;
+}
+
+/*responsive style*/
+.hide {
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+
+    .header,
+    .banner {
+        background-image: none;
+    }
+
+    nav,
+    nav>ul,
+    .banner,
+    .about-info-container,
+    footer,
+    .resume-row,
+    .skills-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .about {
+        height: fit-content;
+    }
+
+    .about-info,
+    .skills {
+        margin: 5px;
+
+        padding: 10px;
+        width: fit-content;
+
+    }
+
+    .banner img {
+        margin: 2px;
+        margin-left: none;
+        padding-left: none;
+        margin-top: 7em;
+        width: 70%;
+
+    }
+
+    .resume-col {
+        margin: 2px;
+        margin-left: 5px;
+        padding-left: 5px;
+        margin-top: 7em;
+
+    }
+
+
+
+    .experience {
+        padding-left: 10px;
+        margin-left: 2px;
+    }
+
+    .sec-desrcip,
+    .resume-col-iteam-descrip {
+
+        font-size: 3vw;
+
+        width: fit-content;
+    }
+
+    .footercol {
+        text-align: left;
+        margin-left: 0%;
+    }
+
+
+    .sec-title {
+        font-weight: 5em;
+        font-size: large;
+        margin-left: 0%;
+    }
+
+
+}
+
+
+@media screen and (min-width:577px) {
+
+    nav,
+    nav>ul,
+    .banner,
+    .about-info-container,
+    footer,
+    .resume-row,
+    .skills-container {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .about {
+        height: fit-content;
+    }
+
+    .about-info,
+    .skills {
+        margin: 5px;
+        flex-basis: 19%;
+
+        padding: 10px;
+
+
+    }
+
+    .resume-col {
+        margin: 2px;
+        margin-left: 5px;
+        padding-left: 5px;
+
+    }
+
+    .resume-row div {
+        margin: 2px;
+        margin-left: 5px;
+        padding-left: 5px;
+
+    }
+
+    .experience {
+        padding-left: 10px;
+        margin-left: 2px;
+    }
+
+
+}
